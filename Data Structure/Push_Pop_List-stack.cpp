@@ -1,12 +1,10 @@
 // Push, Pop, List using Template
-
 #include <iostream>
 using namespace std;
 template <class T>
 class stack {
     int top;
     T stk[10];
-
 public:
     stack();
     void push(T);
@@ -96,7 +94,10 @@ int main()
         case 3:
             st.list();
             break;
-
+		case 4 :
+			cout<<" End of The Program ";
+			break;	
+			
         default:
             cout << " Invalid ";
             break;
