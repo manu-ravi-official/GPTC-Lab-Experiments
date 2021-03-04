@@ -9,8 +9,8 @@ class queue
 		  queue();
 		  int isfull();
 		  int isempty();
-		  void insert(T);
-		  T pop(); 
+		  void enqueue(T);
+		  T dequeue(); 
 		  void list();  
  };
 template <class T> queue <T>::queue()
@@ -32,7 +32,7 @@ template <class T> int queue <T>::isempty()
 	else
 		return 0;
 }
-template <class T> void queue <T>::insert(T ele)
+template <class T> void queue <T>::enqueue(T ele)
 {
 	if(!isfull())
 	{
@@ -43,10 +43,10 @@ template <class T> void queue <T>::insert(T ele)
 	}
 	else
 	{
-		cout<<" Queue is Full ";
+		cout<<" Stack Overflow ";
 	}
 }
-template <class T> T queue <T>::pop()
+template <class T> T queue <T>::dequeue()
 {
 	T ele;
 	ele=q[front];
@@ -77,8 +77,8 @@ int main()
 	int choice,ele;
 	while(choice!=4)
 	{
-		cout <<"\n ----------------------- \n 1 - POP ";
-		cout <<"\n 2 - PUSH ";
+		cout <<"\n ----------------------- \n 1 - INSERT ";
+		cout <<"\n 2 - DELETE ";
 		cout <<"\n 3 - LIST ";
 		cout <<"\n 4 - EXIT ";
 		cout <<"\n Enter your Choice : ";
@@ -88,13 +88,13 @@ int main()
 		case 1:
 			cout<<" Enter the Element to Push : " ;
 			cin>>ele;
-			q1.insert(ele);
-			cout<<" Inserted  element : "<<ele;
+			q1.enqueue(ele);
+			cout<<" Inserted Element : "<<ele;
 			break;
 		case 2:	
 			if(!q1.isempty())
 			{
-				cout<<" Deleted element : "<<q1.pop();
+				cout<<" Deleted Element : "<<q1.dequeue();
 			}
 			else
 			{
@@ -102,8 +102,12 @@ int main()
 			}
 			break;
 		case 3 :
+			cout<<" Elements in Queue : ";
 			q1.list();
 			break;
+		case 4 :
+			cout<<" End : ";
+			break;	
 		default :
 			cout<<" Invalid Choice ";
 			break;
