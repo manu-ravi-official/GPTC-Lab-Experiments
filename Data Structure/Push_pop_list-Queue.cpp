@@ -43,7 +43,7 @@ template <class T> void queue <T>::insert(T ele)
 	}
 	else
 	{
-		cout<<" Stack Overflow ";
+		cout<<" Queue is Full ";
 	}
 }
 template <class T> T queue <T>::pop()
@@ -68,7 +68,7 @@ template <class T> void queue <T>::list()
 	}
 	else
 	{
-		cout<<" Stack empty " ;
+		cout<<" Queue is Empty " ;
 	}
 }
 int main()
@@ -94,11 +94,11 @@ int main()
 		case 2:	
 			if(!q1.isempty())
 			{
-				cout<<" Delted element : "<<q1.pop();
+				cout<<" Deleted element : "<<q1.pop();
 			}
 			else
 			{
-				cout<<" stack underflow ";
+				cout<<" Queue is Empty ";
 			}
 			break;
 		case 3 :
