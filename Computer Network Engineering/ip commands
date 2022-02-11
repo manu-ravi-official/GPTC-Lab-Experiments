@@ -1,0 +1,490 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\user>ping 127.0.0.1
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\user>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\user>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::1f:1dff:a5c3:c3e0%10
+   IPv4 Address. . . . . . . . . . . : 192.168.1.216
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.251
+
+C:\Users\user>ping 127.0.0.1
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\user>netstat -a
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:445            DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:7680           DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49664          DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49665          DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49666          DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49667          DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49668          DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49669          DESKTOP-07P8B28:0      LISTENING
+  TCP    0.0.0.0:49670          DESKTOP-07P8B28:0      LISTENING
+  TCP    192.168.1.216:139      DESKTOP-07P8B28:0      LISTENING
+  TCP    192.168.1.216:49676    52.152.110.14:https    TIME_WAIT
+  TCP    192.168.1.216:49677    13.107.4.52:http       TIME_WAIT
+  TCP    192.168.1.216:49678    40.77.226.250:https    TIME_WAIT
+  TCP    192.168.1.216:49680    a23-65-111-58:https    ESTABLISHED
+  TCP    192.168.1.216:49681    a23-65-111-58:https    ESTABLISHED
+  TCP    192.168.1.216:49682    a104-95-97-24:http     ESTABLISHED
+  TCP    192.168.1.216:49687    candycrushsoda:https   TIME_WAIT
+  TCP    192.168.1.216:49688    candycrushsoda:https   TIME_WAIT
+  TCP    192.168.1.216:49689    bubblewitch3mobile:https  TIME_WAIT
+  TCP    192.168.1.216:49697    20.198.162.78:https    ESTABLISHED
+  TCP    192.168.1.216:49699    a-0001:https           ESTABLISHED
+  TCP    192.168.1.216:49700    a-0001:https           ESTABLISHED
+  TCP    192.168.1.216:49701    bubblewitch3mobile:https  TIME_WAIT
+  TCP    192.168.1.216:49702    40.77.226.250:https    TIME_WAIT
+  TCP    192.168.1.216:49705    40.77.226.250:https    TIME_WAIT
+  TCP    192.168.1.216:49706    a104-114-104-188:http  TIME_WAIT
+  TCP    192.168.1.216:49709    40.77.226.250:https    ESTABLISHED
+  TCP    192.168.1.216:49715    52.182.143.212:https   TIME_WAIT
+  TCP    192.168.1.216:49718    52.182.143.212:https   TIME_WAIT
+  TCP    192.168.1.216:49722    52.182.143.212:https   TIME_WAIT
+  TCP    192.168.1.216:49726    52.182.143.212:https   TIME_WAIT
+  TCP    192.168.1.216:49731    20.190.145.171:https   TIME_WAIT
+  TCP    192.168.1.216:49735    52.152.110.14:https    TIME_WAIT
+  TCP    192.168.1.216:49736    20.62.190.184:https    TIME_WAIT
+  TCP    192.168.1.216:49737    40.77.226.250:https    ESTABLISHED
+  TCP    192.168.1.216:49738    a104-95-97-24:http     TIME_WAIT
+  TCP    192.168.1.216:49739    a23-34-25-163:http     ESTABLISHED
+  TCP    192.168.1.216:49740    a104-95-97-11:http     ESTABLISHED
+  TCP    192.168.1.216:49741    a104-95-97-11:http     ESTABLISHED
+  TCP    192.168.1.216:49742    20.198.162.78:https    ESTABLISHED
+  TCP    192.168.1.216:49743    a104-95-97-11:http     ESTABLISHED
+  TCP    192.168.1.216:49744    a104-95-97-11:http     ESTABLISHED
+  TCP    192.168.1.216:49745    20.62.190.184:https    ESTABLISHED
+  TCP    192.168.1.216:49746    40.77.226.250:https    ESTABLISHED
+  TCP    192.168.1.216:49747    8.241.139.126:http     ESTABLISHED
+  TCP    [::]:135               DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:445               DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:7680              DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49664             DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49665             DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49666             DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49667             DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49668             DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49669             DESKTOP-07P8B28:0      LISTENING
+  TCP    [::]:49670             DESKTOP-07P8B28:0      LISTENING
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:53219        *:*
+  UDP    192.168.1.216:137      *:*
+  UDP    192.168.1.216:138      *:*
+  UDP    192.168.1.216:1900     *:*
+  UDP    192.168.1.216:53218    *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:53217            *:*
+  UDP    [fe80::1f:1dff:a5c3:c3e0%10]:1900  *:*
+  UDP    [fe80::1f:1dff:a5c3:c3e0%10]:53216  *:*
+
+C:\Users\user>netstat -e
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                      44170884         5196468
+Unicast packets               32712           17148
+Non-unicast packets           31314             726
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+C:\Users\user>netstat -n
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    192.168.1.216:49682    104.95.97.24:80        TIME_WAIT
+  TCP    192.168.1.216:49697    20.198.162.78:443      ESTABLISHED
+  TCP    192.168.1.216:49709    40.77.226.250:443      TIME_WAIT
+  TCP    192.168.1.216:49737    40.77.226.250:443      TIME_WAIT
+  TCP    192.168.1.216:49739    23.34.25.163:80        TIME_WAIT
+  TCP    192.168.1.216:49740    104.95.97.11:80        TIME_WAIT
+  TCP    192.168.1.216:49741    104.95.97.11:80        TIME_WAIT
+  TCP    192.168.1.216:49742    20.198.162.78:443      ESTABLISHED
+  TCP    192.168.1.216:49743    104.95.97.11:80        TIME_WAIT
+  TCP    192.168.1.216:49744    104.95.97.11:80        TIME_WAIT
+  TCP    192.168.1.216:49745    20.62.190.184:443      TIME_WAIT
+  TCP    192.168.1.216:49746    40.77.226.250:443      TIME_WAIT
+  TCP    192.168.1.216:49747    8.241.139.126:80       TIME_WAIT
+  TCP    192.168.1.216:49749    23.34.25.163:80        ESTABLISHED
+  TCP    192.168.1.216:49750    20.62.190.184:443      TIME_WAIT
+  TCP    192.168.1.216:49751    20.62.190.187:443      TIME_WAIT
+  TCP    192.168.1.216:49752    40.77.226.250:443      ESTABLISHED
+  TCP    192.168.1.216:49754    52.242.97.97:443       TIME_WAIT
+  TCP    192.168.1.216:49755    40.77.226.250:443      ESTABLISHED
+  TCP    192.168.1.216:49756    173.222.66.181:443     ESTABLISHED
+  TCP    192.168.1.216:49757    52.242.97.97:443       ESTABLISHED
+  TCP    192.168.1.216:49758    20.44.239.154:443      ESTABLISHED
+  TCP    192.168.1.216:49759    51.104.167.48:443      SYN_SENT
+
+C:\Users\user>netstat -o
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    192.168.1.216:49697    20.198.162.78:https    ESTABLISHED     2284
+  TCP    192.168.1.216:49737    40.77.226.250:https    TIME_WAIT       0
+  TCP    192.168.1.216:49739    a23-34-25-163:http     TIME_WAIT       0
+  TCP    192.168.1.216:49740    a104-95-97-11:http     TIME_WAIT       0
+  TCP    192.168.1.216:49741    a104-95-97-11:http     TIME_WAIT       0
+  TCP    192.168.1.216:49742    20.198.162.78:https    ESTABLISHED     2284
+  TCP    192.168.1.216:49743    a104-95-97-11:http     TIME_WAIT       0
+  TCP    192.168.1.216:49744    a104-95-97-11:http     TIME_WAIT       0
+  TCP    192.168.1.216:49745    20.62.190.184:https    TIME_WAIT       0
+  TCP    192.168.1.216:49746    40.77.226.250:https    TIME_WAIT       0
+  TCP    192.168.1.216:49747    8.241.139.126:http     TIME_WAIT       0
+  TCP    192.168.1.216:49749    a23-34-25-163:http     ESTABLISHED     7148
+  TCP    192.168.1.216:49750    20.62.190.184:https    TIME_WAIT       0
+  TCP    192.168.1.216:49751    20.62.190.187:https    TIME_WAIT       0
+  TCP    192.168.1.216:49752    40.77.226.250:https    ESTABLISHED     2948
+  TCP    192.168.1.216:49754    52.242.97.97:https     TIME_WAIT       0
+  TCP    192.168.1.216:49755    40.77.226.250:https    ESTABLISHED     2948
+  TCP    192.168.1.216:49756    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49757    52.242.97.97:https     TIME_WAIT       0
+  TCP    192.168.1.216:49758    20.44.239.154:https    ESTABLISHED     7148
+  TCP    192.168.1.216:49759    51.104.167.48:https    ESTABLISHED     8892
+  TCP    192.168.1.216:49760    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49761    40.77.226.250:https    ESTABLISHED     2948
+  TCP    192.168.1.216:49762    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49763    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49764    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49765    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49766    a23-60-169-32:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49767    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49768    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49769    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49770    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49771    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49772    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49773    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49774    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49775    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49776    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49777    40.77.226.250:https    ESTABLISHED     2948
+  TCP    192.168.1.216:49778    a23-60-169-32:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49779    a173-222-66-181:https  ESTABLISHED     8892
+  TCP    192.168.1.216:49780    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49781    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49782    a23-60-169-33:http     ESTABLISHED     8892
+  TCP    192.168.1.216:49783    52.242.97.97:https     ESTABLISHED     7148
+
+C:\Users\user>netstat -p protocol
+
+Displays protocol statistics and current TCP/IP network connections.
+
+NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
+
+  -a            Displays all connections and listening ports.
+  -b            Displays the executable involved in creating each connection or
+                listening port. In some cases well-known executables host
+                multiple independent components, and in these cases the
+                sequence of components involved in creating the connection
+                or listening port is displayed. In this case the executable
+                name is in [] at the bottom, on top is the component it called,
+                and so forth until TCP/IP was reached. Note that this option
+                can be time-consuming and will fail unless you have sufficient
+                permissions.
+  -e            Displays Ethernet statistics. This may be combined with the -s
+                option.
+  -f            Displays Fully Qualified Domain Names (FQDN) for foreign
+                addresses.
+  -n            Displays addresses and port numbers in numerical form.
+  -o            Displays the owning process ID associated with each connection.
+  -p proto      Shows connections for the protocol specified by proto; proto
+                may be any of: TCP, UDP, TCPv6, or UDPv6.  If used with the -s
+                option to display per-protocol statistics, proto may be any of:
+                IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, or UDPv6.
+  -q            Displays all connections, listening ports, and bound
+                nonlistening TCP ports. Bound nonlistening ports may or may not
+                be associated with an active connection.
+  -r            Displays the routing table.
+  -s            Displays per-protocol statistics.  By default, statistics are
+                shown for IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, and UDPv6;
+                the -p option may be used to specify a subset of the default.
+  -t            Displays the current connection offload state.
+  -x            Displays NetworkDirect connections, listeners, and shared
+                endpoints.
+  -y            Displays the TCP connection template for all connections.
+                Cannot be combined with the other options.
+  interval      Redisplays selected statistics, pausing interval seconds
+                between each display.  Press CTRL+C to stop redisplaying
+                statistics.  If omitted, netstat will print the current
+                configuration information once.
+
+
+C:\Users\user>netstat -r
+===========================================================================
+Interface List
+ 12...8c ec 4b c6 88 4b ......Realtek PCIe GbE Family Controller
+ 16...12 5b ad 5a 43 ed ......Microsoft Wi-Fi Direct Virtual Adapter
+ 10...10 5b ad 5a 43 ed ......Dell Wireless 1707 802.11b|g|n (2.4GHZ)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0    192.168.1.251    192.168.1.216     55
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.1.0    255.255.255.0         On-link     192.168.1.216    311
+    192.168.1.216  255.255.255.255         On-link     192.168.1.216    311
+    192.168.1.255  255.255.255.255         On-link     192.168.1.216    311
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link     192.168.1.216    311
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link     192.168.1.216    311
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+ 10    311 fe80::/64                On-link
+ 10    311 fe80::1f:1dff:a5c3:c3e0/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+ 10    311 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+C:\Users\user>netstat -s
+
+IPv4 Statistics
+
+  Packets Received                   = 16274
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 1883
+  Received Packets Delivered         = 15775
+  Output Requests                    = 9220
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 6
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 1100
+  Received Header Errors             = 0
+  Received Address Errors            = 18
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 1079
+  Received Packets Delivered         = 494
+  Output Requests                    = 77
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  25          33
+  Errors                    0           0
+  Destination Unreachable   0           9
+  Time Exceeded             0           0
+  Parameter Problems        0           0
+  Source Quenches           0           0
+  Redirects                 0           0
+  Echo Replies              12          12
+  Echos                     12          12
+  Timestamps                0           0
+  Timestamp Replies         0           0
+  Address Masks             0           0
+  Address Mask Replies      0           0
+  Router Solicitations      0           0
+  Router Advertisements     1           0
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  13          5
+  Errors                    0           0
+  Destination Unreachable   0           0
+  Packet Too Big            0           0
+  Time Exceeded             0           0
+  Parameter Problems        0           0
+  Echos                     0           0
+  Echo Replies              0           0
+  MLD Queries               0           0
+  MLD Reports               0           0
+  MLD Dones                 0           0
+  Router Solicitations      0           3
+  Router Advertisements     0           0
+  Neighbor Solicitations    0           1
+  Neighbor Advertisements   13          1
+  Redirects                 0           0
+  Router Renumberings       0           0
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 129
+  Passive Opens                       = 0
+  Failed Connection Attempts          = 2
+  Reset Connections                   = 29
+  Current Connections                 = 8
+  Segments Received                   = 14237
+  Segments Sent                       = 8827
+  Segments Retransmitted              = 38
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 1
+  Passive Opens                       = 0
+  Failed Connection Attempts          = 1
+  Reset Connections                   = 0
+  Current Connections                 = 0
+  Segments Received                   = 6
+  Segments Sent                       = 4
+  Segments Retransmitted              = 2
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 223
+  No Ports              = 675
+  Receive Errors        = 1212
+  Datagrams Sent        = 311
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 6
+  No Ports              = 607
+  Receive Errors        = 472
+  Datagrams Sent        = 23
+
+C:\Users\user>netstat interval
+
+Displays protocol statistics and current TCP/IP network connections.
+
+NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
+
+  -a            Displays all connections and listening ports.
+  -b            Displays the executable involved in creating each connection or
+                listening port. In some cases well-known executables host
+                multiple independent components, and in these cases the
+                sequence of components involved in creating the connection
+                or listening port is displayed. In this case the executable
+                name is in [] at the bottom, on top is the component it called,
+                and so forth until TCP/IP was reached. Note that this option
+                can be time-consuming and will fail unless you have sufficient
+                permissions.
+  -e            Displays Ethernet statistics. This may be combined with the -s
+                option.
+  -f            Displays Fully Qualified Domain Names (FQDN) for foreign
+                addresses.
+  -n            Displays addresses and port numbers in numerical form.
+  -o            Displays the owning process ID associated with each connection.
+  -p proto      Shows connections for the protocol specified by proto; proto
+                may be any of: TCP, UDP, TCPv6, or UDPv6.  If used with the -s
+                option to display per-protocol statistics, proto may be any of:
+                IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, or UDPv6.
+  -q            Displays all connections, listening ports, and bound
+                nonlistening TCP ports. Bound nonlistening ports may or may not
+                be associated with an active connection.
+  -r            Displays the routing table.
+  -s            Displays per-protocol statistics.  By default, statistics are
+                shown for IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, and UDPv6;
+                the -p option may be used to specify a subset of the default.
+  -t            Displays the current connection offload state.
+  -x            Displays NetworkDirect connections, listeners, and shared
+                endpoints.
+  -y            Displays the TCP connection template for all connections.
+                Cannot be combined with the other options.
+  interval      Redisplays selected statistics, pausing interval seconds
+                between each display.  Press CTRL+C to stop redisplaying
+                statistics.  If omitted, netstat will print the current
+                configuration information once.
+
+
+C:\Users\user>
