@@ -1,0 +1,121 @@
+<Html>
+    <head> 
+    <title>
+    Registration Page
+    </title>
+    </head>
+    <body bgcolor="Lightskyblue">
+    <br>
+    <br>
+    
+      <form name="form1" action="action_page.php" onsubmit="return validateForm()" method="post">  
+    <label> Username: </label>
+    <input id="uname" type="text" name="username" size="15"/> <br> <br>
+    <label> Firstname </label>
+    <input type="text" name="firstname" size="15"/> <br> <br>
+    
+    <label> Lastname: </label> 
+    <input type="text" name="lastname" size="15"/> <br> <br>
+    
+    
+    
+    <label for="email"><b>Email</b></label>  
+     <input type="text" id="text1" placeholder="Enter Email" name="text1" required>  
+    <br><br>
+    <label> 
+    Gender :
+    </label><br>
+    <input type="radio" name="gender" value="male"/> Male <br>
+    <input type="radio" name="gender" value="Female"/> Female <br>
+    <input type="radio" name="gender" value="Transgender"/> Transgender
+    <br>
+    <br>
+      <label for="psw"><b>Password</b></label>  
+        <input id="pass" type="password" placeholder="Enter Password" name="psw" required>  
+      <br><br>
+        <label for="psw-repeat"><b>Re-type Password</b></label>  
+        <input id="cpass" type="password" placeholder="Retype Password" name="psw-repeat" required>  
+        <br><br>
+  <!--<button value="Submit" onclick="ValidateEmail(document.form1.text1);ValidateGender();" >  submit </button> -->
+  <input type="submit" value="Submit">
+  
+     <script type = "text/javascript">
+       function validateForm()
+      {
+        var mail=document.getElementById("text1").value;
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+          if(mail.match(mailformat))
+          {  
+            var pass=document.getElementById("pass").value;
+            var cpass=document.getElementById("cpass").value;
+            if(pass!=cpass)
+            {
+                alert("password doesnt match");
+                document.getElementById("pass").focus();
+                return false;
+            }
+            if(document.getElementById("uname").value=="")
+            {
+              alert("No Username");
+              document.getElementById("uname").focus();
+                return false;
+            }
+              
+            if ( ( form1.gender[0].checked == false ) && ( form1.gender[1].checked == false )&& ( form1.gender[2].checked == false )  ) 
+            {
+           alert ( "Please choose your Gender" ); 
+          
+           
+             }
+            return true;
+          }
+          else
+          {
+            alert("You have entered an invalid email address!");
+            document.getElementById("text1").focus();
+           
+            return false;
+          }
+       
+        
+       
+      
+return false;
+    }
+   /* function validateForm()
+    {
+     
+    
+      function ValidateEmail()
+      {
+          var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+          if(document.form1.text1.match(mailformat))
+          {  
+            alert("Perfect email address!");       
+            return true;
+          }
+          else
+          {
+            alert("You have entered an invalid email address!");
+            document.getElementById("text1").focus();
+            return false;
+          
+          }
+
+      }  
+   }
+   /* function ValidateGender()
+    {
+      if ( ( form1.gender[0].checked == false ) && ( form1.gender[1].checked == false )&& ( form1.gender[2].checked == false )  ) 
+      {
+      alert ( "Please choose your Gender" ); 
+      
+      }
+    }
+    
+    */
+    
+        </script>
+        </body>
+        </hmtl>
+        

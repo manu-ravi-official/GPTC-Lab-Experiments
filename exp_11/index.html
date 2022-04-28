@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>REGISTRATION FORM</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body   bgcolor="#f5e5d6">
+     <center> <h1 >
+        <u>REGISTRATION FORM </u></center>
+      </h1>
+      <form name="register" autocomplete="off" action="regaction.php" method="POST" enctype="multipart/form-data" >
+         <!-----------First Name--------------->
+         <div>
+            <label>First Name : </label>
+            <input type="text" name="txtFname"/><br>
+         </div>
+         <!--------------Last Name---------------->    
+         <div>
+         <label>Last Name : </label>
+         <input type="text" name="txtLname" /><br>
+         <!-----------Department Name--------------->
+         <div>
+            <label>Department : </label>
+            <input type="text" name="txtDept"/><br>
+         </div>
+         <!--------------Batch---------------->    
+         <div>
+         <label>Batch : </label>
+         <input type="text" name="txtBatch" /><br>
+         <!-----------Subject 1--------------->
+         <h3>Enter Your Marks</h3>
+         <div>
+            <label>Microcontrollers : </label>
+            <input type="text" name="txtSub1"/><br>
+         </div>
+         <!--------------Subject 2---------------->    
+         <div>
+         <label>	Computer Networks : </label>
+         <input type="text" name="txtSub2" /><br>
+         <!-------------Subject 3------------------------>
+         <div>
+            <label>Smart Device Programming : </label>
+            <input type="text" name="txtSub3"  /><br>
+         </div>
+         <!-------------Subject 4------------------------>
+         <div><label>Software Testing : </label>
+            <input type="text" name="txtSub4"  /><br>
+         </div>
+         <!-------------Subject 5------------------------>
+         <div>
+            <label>Project & Seminar : </label>
+            <input type="text" id="email"  name="txtSub5"/><br>
+         </div>
+         <input type="submit" value="save">
+         
+      </form>
+   </body>
+</html>
