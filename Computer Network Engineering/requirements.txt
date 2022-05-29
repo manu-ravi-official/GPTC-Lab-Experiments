@@ -1,0 +1,25 @@
+Two router
+----------
+Router : 1841
+Switch : 2950-24
+
+
+
+Two router ( Serial )
+----------
+Router : 4321
+Switch : 2960-24
+
+
+
+Three router
+----------
+Router : 2911
+Switch : 2950-24
+
+
+
+Printer
+-------
+Router : 1841
+Switch : 2950-24
